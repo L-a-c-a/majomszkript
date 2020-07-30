@@ -9,7 +9,7 @@
 // ==/UserScript==
 
 let beszurnivaloElem = document.createElement('div')
-beszurnivaloElem.className = "forum-category"
+beszurnivaloElem.className = "forum-category forum-favorite-category"
 beszurnivaloElem.innerHTML = '<div class="category-name">Kedvenc olvasatlan</div><div id="kedv" class="topic-list"></div>'
 
 let kedvElem = beszurnivaloElem.querySelector('#kedv')
